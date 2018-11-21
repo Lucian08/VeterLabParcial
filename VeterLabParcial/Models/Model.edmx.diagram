@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0072c0fe4a742e6869f2c613533f286" Name="Diagram1">
+        <EntityTypeShape EntityType="VeterLabParcialModel.Cliente" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterLabParcialModel.Laboratorio" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterLabParcialModel.Recepcion" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="VeterLabParcialModel.FK__Recepcion__IdCli__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterLabParcialModel.FK__Recepcion__IdLab__29572725" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
